@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dehana's Birthday Invitation</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <section class="welcome">
+
+        
+
+        <div class="card">
+
+
+            <div class="flamingo">
+                🦩
+            </div>
+
+
+            <h1>
+                You're Invited
+            </h1>
+
+
+            <h2>
+                Dehana's
+            </h2>
+
+
+            <h3>
+                10th Birthday Celebration
+            </h3>
+
+
+            <button onclick="showEnvelope()">
+              Tap to Open 💌
+            </button>
+
+
+        </div>
+
+
+    </section>
+    <section class="envelope-screen" id="envelopeScreen">
+
+    <h1>
+        A Special Invitation
+    </h1>
+
+    <img src="assets/new.png.jpg" 
+       class="envelope" 
+        onclick="openCard()"
+>
+
+    <p>
+        Tap the envelope to open 💌
+    </p>
+
+</section>
+<section class="invitation" id="invitation">
+
+
+    <div class="invite-card">
+
+
+        <div class="top-icon">
+            🦩
+        </div>
+
+
+        <p class="small-title">
+            You're Invited To
+        </p>
+
+
+        <h1>
+            Dehana's
+        </h1>
+
+
+        <h2>
+            10th Birthday Party
+        </h2>
+
+
+        <p class="message">
+
+            Join us for a fun-filled
+            birthday celebration
+
+        </p>
+
+
+
+        <div class="details">
+
+
+            <div>
+                📅
+                <span>
+                10th July 2026
+                </span>
+            </div>
+
+
+            <div>
+                ⏰
+                <span>
+                6:30 PM
+                </span>
+            </div>
+
+
+            <div>
+                📍
+                <span>
+                Fish Park & Floating Restaurant
+                <br>
+                Pamunugama
+                </span>
+            </div>
+
+
+        </div>
+
+
+
+        <a 
+          href="https://maps.app.goo.gl/7JtmQhtTaW2f2enC8"
+            target="_blank">
+
+        <button class="location-btn">
+             View Location 📍
+        </button>
+
+        </a>
+
+
+        <a 
+          href="https://wa.me/94772647782"
+           target="_blank">
+
+        <button class="rsvp-btn">
+             RSVP 💚
+        </button>
+
+        </a>
+        <div class="countdown">
+
+    <h3>
+        Counting Down To The Celebration
+    </h3>
+
+
+    <div class="timer">
+
+
+        <div>
+            <span id="days">0</span>
+            <small>Days</small>
+        </div>
+
+
+        <div>
+            <span id="hours">0</span>
+            <small>Hours</small>
+        </div>
+
+
+        <div>
+            <span id="minutes">0</span>
+            <small>Minutes</small>
+        </div>
+
+
+        <div>
+            <span id="seconds">0</span>
+            <small>Seconds</small>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+    </div>
+
+
+</section>
+<audio id="birthdayMusic" loop>
+
+    <source src="assets/music.mp3.mp3" type="audio/mpeg">
+
+</audio>
+
+<button id="musicBtn" onclick="toggleMusic()">
+    🎵
+</button>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
